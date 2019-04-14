@@ -9,9 +9,9 @@ The AD is responsive <br />
 
 # Short code props
 - type: type of AD, "Pick" is the only available type.
-- title: title to be display at the AD.
+- title: title to be displayed at the AD.
 - end_date: will configure a countdown to the given date, it has to have the YYYY-MM-DD HH:SS format
 
 # Structure
-- html folder: the source code for the AD component (html + JS). The index.html can be opened to check the AD visual<br/>
+- html folder: the source code for the AD component (html + JS). The index.html can be opened to check the AD functionality<br/>
 - bam_test_wp_plugin folder: the wordpress plugin.
