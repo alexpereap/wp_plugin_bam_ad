@@ -1,0 +1,200 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro 57 Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Neue LT Pro 57 Condensed'), url('HelveticaNeueLTPro-Cn.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Helvetica Neue LT Pro 57 Condensed';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Helvetica Neue LT Pro 57 Condensed'), url('HelveticaNeueLTPro-MdCn.woff') format('woff');
+    }
+
+#bamAD{
+    max-width: 710px;
+    height: 140px;
+    background: #000;
+    color:#FFF;
+    font-family: 'Helvetica Neue LT Pro 57 Condensed';
+}
+
+#bamAD div[class*="-wrapper"]{
+    float: left;
+    height: inherit;
+}
+
+#bamAD .logo-wrapper{
+    width:24%;
+    background: url('task-2-v1-full-stack-design-conversion.jpg');
+}
+
+#bamAD .content-wrapper{
+    width:50%;
+
+}
+
+#bamAD .content-wrapper .counter{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#bamAD .bet-wrapper{
+    width:16%;
+    padding: 25px 30px;
+    height: 90px !important;
+    background: #1a1a1a;
+    float:right !important;
+
+}
+
+#bamAD .content-wrapper .counter ul{
+    padding: 0;
+    margin: 10px 0 0 0;
+    float:left;
+}
+
+#bamAD .content-wrapper .counter ul li{
+    list-style: none;
+    width: 50px;
+    height: 35px;
+    background: #ff1805;
+    padding: 5px 0 10px 0;
+    display: block;
+    float: left;
+    margin-right: 2px;
+}
+
+#bamAD .content-wrapper .counter ul li span{
+    display: block;
+    text-align: center;
+    font-size:26px;
+}
+
+#bamAD .content-wrapper .counter ul li span.title{
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bamAD .content-wrapper .counter .time-label{
+    float:left;
+    padding: 20px 0 0 20px;
+}
+
+#bamAD .content-wrapper .counter .time-label p{
+    margin:0;
+    font-size: 13px;
+    text-transform: capitalize;
+    width:92px;
+    font-weight: bold;
+    letter-spacing: .7px;
+}
+
+#bamAD .content-wrapper .description h2{
+    margin:0;
+    color: #fee801;
+    font-size: 24px;
+}
+
+#bamAD .content-wrapper .description h3{
+    margin:0;
+    margin:0;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: .7px;
+}
+
+#bamAD .content-wrapper .description h3 span{
+    font-weight: bold;
+}
+
+#bamAD .bet-wrapper button{
+    width:100%;
+    height: 48px;
+    padding:0;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue LT Pro 57 Condensed';
+    color:#000;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: linear-gradient(#fdcc4f, #f7aa47);
+    border:none;
+    box-shadow: 0px 2px 0px rgba(247, 170, 71, .5);
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+#bamAD .bet-wrapper button:active{
+    box-shadow: none;
+}
+
+#bamAD .bet-wrapper span{
+    display: block;
+    font-size:12px;
+    text-align: center;
+    width:100%;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 685px) {
+    
+    #bamAD .content-wrapper{
+        width:38%;
+    }
+
+    #bamAD .content-wrapper .counter .time-label{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #bamAD .content-wrapper .description h2{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    #bamAD .content-wrapper .description h3{
+        display: none;
+    }
+
+    #bamAD .content-wrapper .counter{
+        margin-left: 25%;
+        width:105px;
+        float:left;
+    }
+
+    #bamAD .content-wrapper .description {
+        float: left;
+        width: 120%;
+        text-align: center;
+    }
+
+    #bamAD .content-wrapper .description h2{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #bamAD .content-wrapper .description h2{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #bamAD .content-wrapper .description h2{
+        font-size: 10px;
+    }
+
+    #bamAD .content-wrapper .counter ul li{
+        width: 41px;
+    }
+}

@@ -1,0 +1,11 @@
+<div class="bam-ad-iframe-wrapper" >
+    <iframe id="{iframeID}" frameborder="0" scrolling="no" style="width:100%; height:140px;" class="bam-add-iframe" src="{url}" ></iframe>
+</div>
+<script>
+    // start the timer
+    jQuery(window).load(function(){
+        document.getElementById('{iframeID}').contentWindow.bamTestSetTimer('bamAD', '{end_date}');
+        document.getElementById('{iframeID}').contentWindow.setBackgroundColor('{bgColor}');
+    });
+    
+</script>
